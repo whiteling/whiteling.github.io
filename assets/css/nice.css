@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(54, 53, 53);
+}
+
+#wrapper{ 
+    width: 90%;
+    margin:auto;
+}
+
+#leftcolumn{
+    height: 800px;
+    width: 300px;
+    margin: 0;
+    color: #5cb0ff;
+    border: 1px solid #5cb0ff ;
+}
+
+a{
+    text-decoration:none;  /*去除下划线*/
+    margin:0 30px;
+    color:burlywood;
+}
+
+li{
+    background-color: rgba(255, 255, 255, 0.705);
+    overflow:hidden;
+    line-height: 40px;
+}
+
+li:nth-of-type(2n){ /*偶数行*/
+    background-color:rgba(255, 255, 255, 0.905) ;
+}
+
+li:hover{ /*鼠标悬停*/
+    background-color:cadetblue;
+}
