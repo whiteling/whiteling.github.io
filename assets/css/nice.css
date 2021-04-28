@@ -1,9 +1,10 @@
 body{
     background-color:rgb(54, 53, 53);
+    border:2px groove greenyellow;
+    padding-left: 100px;
 }
 
 #wrapper{ 
-    width: 90%;
     margin:auto;
 }
 
@@ -21,16 +22,17 @@ a{
     color:burlywood;
 }
 
-li{
+#leftcolumn li{
     background-color: rgba(255, 255, 255, 0.705);
     overflow:hidden;
     line-height: 40px;
+    display: block;
 }
 
-li:nth-of-type(2n){ /*偶数行*/
+#leftcolumn li:nth-of-type(2n){ /*偶数行*/
     background-color:rgba(255, 255, 255, 0.905) ;
 }
 
-li:hover{ /*鼠标悬停*/
+#leftcolumn li:hover{ /*鼠标悬停*/
     background-color:cadetblue;
 }
