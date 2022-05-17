@@ -1,0 +1,19 @@
+# logs
+*.log
+
+# txt
+*.txt
+
+# Dependencies directory
+node_modules
+
+# idea
+.idea
+
+# scss
+*.css.map
+*.sass.map
+*.scss.map
+
+# OSX Files
+*.DS_Store
